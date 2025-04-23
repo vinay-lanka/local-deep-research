@@ -26,16 +26,25 @@ The project uses pre-trained models (e.g., `blip2-opt-2.7b`) to enhance query ge
 ### 3. Sample Image: `obj.JPG`
 A sample image is included to demonstrate image-based captioning and query generation.
 
+## Installs
+```bash
+# Ollama install
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull gemma3:4b
+
+```
+
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd manufacturing_final_project
+   git clone https://github.com/vinay-lanka/local-deep-research.git
+   cd local-deep-research
+
    ```
 2. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   conda env create -f environment.yml
    ```
 3. Open the Jupyter Notebook:
    ```bash
