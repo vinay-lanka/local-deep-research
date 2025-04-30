@@ -1,4 +1,4 @@
-# Local Duck-Duck-Go Web-Scraping using LangChain and Ollama
+# Vision to Manufacture: A Fully Local Manufacturing Intelligence Engine
 
 This repository contains the final project for the Manufacturing and Automation course. The project focuses on building a fully offline web scraper tailored for manufacturing-related research and analysis.
 
@@ -23,8 +23,8 @@ The notebook contains:
 ### 2. Pre-trained Models
 The project uses pre-trained models (e.g., `blip2-opt-2.7b`) to enhance query generation and data analysis capabilities. These models are stored in the `models/` directory.
 
-### 3. Sample Image: `obj.JPG`
-A sample image is included to demonstrate image-based captioning and query generation.
+### 3. Sample Images and Outputs
+A set of sample images and outputs are included to demonstrate image-based captioning and query generation.
 
 ## Installs
 ```bash
@@ -40,12 +40,13 @@ ollama pull gemma3:4b
    ```bash
    git clone https://github.com/vinay-lanka/local-deep-research.git
    cd local-deep-research
-
    ```
+
 2. Install the required dependencies:
    ```bash
    conda env create -f environment.yml
    ```
+   
 3. Open the Jupyter Notebook:
    ```bash
    jupyter notebook manufacturing.ipynb
